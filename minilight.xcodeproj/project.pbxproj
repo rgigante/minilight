@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		63052E3A204459B6007DF546 /* All Targets */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 63052E3B204459B6007DF546 /* Build configuration list for PBXAggregateTarget "All Targets" */;
+			buildPhases = (
+			);
+			dependencies = (
+				63052E3F204459BF007DF546 /* PBXTargetDependency */,
+				63052E41204459BF007DF546 /* PBXTargetDependency */,
+				63052E43204459BF007DF546 /* PBXTargetDependency */,
+			);
+			name = "All Targets";
+			productName = "All Targets";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		63052E32204459A4007DF546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63052E28204459A4007DF546 /* minilight_merge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63E66D312044568F008D4EF1;
+			remoteInfo = minilight_merge;
+		};
+		63052E35204459A4007DF546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63052E2B204459A4007DF546 /* minilight_render.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63E66CD8204455D6008D4EF1;
+			remoteInfo = minilight_render;
+		};
+		63052E38204459A4007DF546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63052E2E204459A4007DF546 /* minilight_tone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63E66D0C20445641008D4EF1;
+			remoteInfo = minilight_tone;
+		};
+		63052E3E204459BF007DF546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63052E28204459A4007DF546 /* minilight_merge.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E66D302044568F008D4EF1;
+			remoteInfo = minilight_merge;
+		};
+		63052E40204459BF007DF546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63052E2B204459A4007DF546 /* minilight_render.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E66CD7204455D6008D4EF1;
+			remoteInfo = minilight_render;
+		};
+		63052E42204459BF007DF546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63052E2E204459A4007DF546 /* minilight_tone.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E66D0B20445641008D4EF1;
+			remoteInfo = minilight_tone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63052E28204459A4007DF546 /* minilight_merge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = minilight_merge.xcodeproj; path = minilight_merge/minilight_merge.xcodeproj; sourceTree = "<group>"; };
+		63052E2B204459A4007DF546 /* minilight_render.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = minilight_render.xcodeproj; path = minilight_render/minilight_render.xcodeproj; sourceTree = "<group>"; };
+		63052E2E204459A4007DF546 /* minilight_tone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = minilight_tone.xcodeproj; path = minilight_tone/minilight_tone.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		63052E29204459A4007DF546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63052E33204459A4007DF546 /* minilight_merge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63052E2C204459A4007DF546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63052E36204459A4007DF546 /* minilight_render */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63052E2F204459A4007DF546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63052E39204459A4007DF546 /* minilight_tone */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63DF853920445983004A4BEE = {
+			isa = PBXGroup;
+			children = (
+				63052E28204459A4007DF546 /* minilight_merge.xcodeproj */,
+				63052E2B204459A4007DF546 /* minilight_render.xcodeproj */,
+				63052E2E204459A4007DF546 /* minilight_tone.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		63DF853A20445983004A4BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					63052E3A204459B6007DF546 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63DF853D20445983004A4BEE /* Build configuration list for PBXProject "minilight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63DF853920445983004A4BEE;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 63052E29204459A4007DF546 /* Products */;
+					ProjectRef = 63052E28204459A4007DF546 /* minilight_merge.xcodeproj */;
+				},
+				{
+					ProductGroup = 63052E2C204459A4007DF546 /* Products */;
+					ProjectRef = 63052E2B204459A4007DF546 /* minilight_render.xcodeproj */;
+				},
+				{
+					ProductGroup = 63052E2F204459A4007DF546 /* Products */;
+					ProjectRef = 63052E2E204459A4007DF546 /* minilight_tone.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				63052E3A204459B6007DF546 /* All Targets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		63052E33204459A4007DF546 /* minilight_merge */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = minilight_merge;
+			remoteRef = 63052E32204459A4007DF546 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63052E36204459A4007DF546 /* minilight_render */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = minilight_render;
+			remoteRef = 63052E35204459A4007DF546 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63052E39204459A4007DF546 /* minilight_tone */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = minilight_tone;
+			remoteRef = 63052E38204459A4007DF546 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXTargetDependency section */
+		63052E3F204459BF007DF546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = minilight_merge;
+			targetProxy = 63052E3E204459BF007DF546 /* PBXContainerItemProxy */;
+		};
+		63052E41204459BF007DF546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = minilight_render;
+			targetProxy = 63052E40204459BF007DF546 /* PBXContainerItemProxy */;
+		};
+		63052E43204459BF007DF546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = minilight_tone;
+			targetProxy = 63052E42204459BF007DF546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63052E3C204459B6007DF546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63052E3D204459B6007DF546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63DF853E20445983004A4BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		63DF853F20445983004A4BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63052E3B204459B6007DF546 /* Build configuration list for PBXAggregateTarget "All Targets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63052E3C204459B6007DF546 /* Debug */,
+				63052E3D204459B6007DF546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DF853D20445983004A4BEE /* Build configuration list for PBXProject "minilight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DF853E20445983004A4BEE /* Debug */,
+				63DF853F20445983004A4BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DF853A20445983004A4BEE /* Project object */;
+}
